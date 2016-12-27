@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="circularProgressBarStyle">@style/AppTheme.CircularProgressBar</item>
     </style>
 
+    <style name="AppTheme.CircularProgressBar">
+        <item name="progress">0</item>
+        <item name="foregroundColor">@color/colorPrimary</item>
+        <item name="backgroundColor">@color/colorPrimaryAlpha</item>
+    </style>
 </resources>
