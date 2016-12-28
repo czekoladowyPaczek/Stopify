@@ -10,7 +10,6 @@ import android.util.AttributeSet
 import android.view.View
 import boiled.eu.stopify.R
 
-
 class CircularProgressBar : View {
     private val startAngle: Float = -90f
     private val strokeWidth: Float = 10f
@@ -44,8 +43,6 @@ class CircularProgressBar : View {
             typedArray.recycle()
         }
     }
-
-    constructor(context: Context, attrs: AttributeSet?, defStyleAttrs: Int, defStyleRes: Int) : this(context, attrs, defStyleAttrs)
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
